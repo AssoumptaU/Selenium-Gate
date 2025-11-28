@@ -2,6 +2,7 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.Select;
 
 public class FormDemoPage {
     private WebDriver driver;
@@ -17,7 +18,7 @@ public class FormDemoPage {
     private By Fieldforstate = By.id("inputState");
     private By Fieldforzipcode = By.id("inputZip");
     private By submitButton = By.xpath("//*[@id=\"seleniumform\"]/div[6]/button");
-    private By resultMessage = By.xpath()
+    private By resultMessage = By.xpath("//*[@id=\"__next\"]/div/section[2]/div/div/div/div/p");
 
 
     public FormDemoPage(WebDriver driver){
@@ -38,14 +39,20 @@ public class FormDemoPage {
         driver.findElement(Fieldforaddress2).sendKeys(address2);
         driver.findElement(Fieldforstate).sendKeys(state);
         driver.findElement(Fieldforzipcode).sendKeys(zipcode);
+        driver.findElement(submitButton).click();
     }
 
     public Select findDropdownCountry(){
         return new Select(driver.findElement(Fieldforcountry));
     }
-    public void clickSubmitButton(){
-        driver.findElement(submitButton).click();
+
+    public void selectFromDropdownOptions(String option){
+        findDropdownCountry().selectByVisibleText(option);
     }
+    public String getResultMessage(){
+        return driver.findElement(resultMessage).getText();
+    }
+
 
 
 }
