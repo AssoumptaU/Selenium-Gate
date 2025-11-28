@@ -17,7 +17,7 @@ public class BaseTests {
     public void setUp(){
         System.setProperty("webdriver.chrome.driver", "D:\\Selenium-Gate\\Resources\\chromedriver.exe");
         driver= new ChromeDriver();
-//        driver.get();
+        driver.get("https://www.lambdatest.com/selenium-playground/");
         homePage = new HomePage(driver);
     }
 
