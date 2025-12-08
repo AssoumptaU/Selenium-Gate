@@ -4,32 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="278dc245-dd0b-411d-924f-8b1b0066566e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AlertBoxDemoPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BootstrapModalsPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DataLoadedPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DynamicDataLoadingPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/FormDemoPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/KeyPressPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/UploadFileDemoPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/alerts/JavascriptAlertsTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/form/FormInputFieldTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/keypress/KeyPressTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/modals/BootstrapModalsTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/upload/UploadFileTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wait/DynamicDataLoadingTests.java" beforeDir="false" />
-    </list>
+    <list default="true" id="278dc245-dd0b-411d-924f-8b1b0066566e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,23 +28,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;TestNG.JavascriptAlertsTests.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.JavascriptAlertsTests.testConfirm.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.JavascriptAlertsTests.testPrompt.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.KeyPressTests.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.UploadFileTests.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Selenium-Gate&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Selenium-Gate/src/main/java/org/example/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "TestNG.JavascriptAlertsTests.executor": "Run",
+    "TestNG.JavascriptAlertsTests.testConfirm.executor": "Run",
+    "TestNG.JavascriptAlertsTests.testPrompt.executor": "Run",
+    "TestNG.KeyPressTests.executor": "Run",
+    "TestNG.UploadFileTests.executor": "Run",
+    "git-widget-placeholder": "dev",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Selenium-Gate",
+    "onboarding.tips.debug.path": "D:/Selenium-Gate/src/main/java/org/example/Main.java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Selenium-Gate" />
