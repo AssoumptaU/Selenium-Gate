@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="278dc245-dd0b-411d-924f-8b1b0066566e" name="Changes" comment="" />
+    <list default="true" id="278dc245-dd0b-411d-924f-8b1b0066566e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,29 +31,70 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "TestNG.JavascriptAlertsTests.executor": "Run",
-    "TestNG.JavascriptAlertsTests.testConfirm.executor": "Run",
-    "TestNG.JavascriptAlertsTests.testPrompt.executor": "Run",
-    "TestNG.KeyPressTests.executor": "Run",
-    "TestNG.UploadFileTests.executor": "Run",
-    "git-widget-placeholder": "dev",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Selenium-Gate",
-    "onboarding.tips.debug.path": "D:/Selenium-Gate/src/main/java/org/example/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;TestNG.DynamicDataLoadingTests.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DynamicDataLoadingTests.testDynamicLoading.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.JavascriptAlertsTests.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.JavascriptAlertsTests.testConfirm.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.JavascriptAlertsTests.testPrompt.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.KeyPressTests.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.KeyPressTests.testKeyPress.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.UploadFileTests.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.UploadFileTests.testUploadFile.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Selenium-Gate&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Selenium-Gate/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.file-colors&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Selenium-Gate" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.JavascriptAlertsTests.testPrompt">
+  <component name="RunManager" selected="TestNG.JavascriptAlertsTests.testConfirm">
+    <configuration name="DynamicDataLoadingTests.testDynamicLoading" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium-Gate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wait.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wait" />
+      <option name="MAIN_CLASS_NAME" value="wait.DynamicDataLoadingTests" />
+      <option name="METHOD_NAME" value="testDynamicLoading" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavascriptAlertsTests.testAlert" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium-Gate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="alerts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="alerts" />
+      <option name="MAIN_CLASS_NAME" value="alerts.JavascriptAlertsTests" />
+      <option name="METHOD_NAME" value="testAlert" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JavascriptAlertsTests.testConfirm" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium-Gate" />
       <extension name="coverage">
@@ -69,17 +113,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavascriptAlertsTests.testPrompt" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="KeyPressTests.testKeyPress" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium-Gate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alerts.*" />
+          <option name="PATTERN" value="keypress.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="alerts" />
-      <option name="MAIN_CLASS_NAME" value="alerts.JavascriptAlertsTests" />
-      <option name="METHOD_NAME" value="testPrompt" />
+      <option name="PACKAGE_NAME" value="keypress" />
+      <option name="MAIN_CLASS_NAME" value="keypress.KeyPressTests" />
+      <option name="METHOD_NAME" value="testKeyPress" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UploadFileTests.testUploadFile" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium-Gate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="upload.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="upload" />
+      <option name="MAIN_CLASS_NAME" value="upload.UploadFileTests" />
+      <option name="METHOD_NAME" value="testUploadFile" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -89,8 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.JavascriptAlertsTests.testPrompt" />
         <item itemvalue="TestNG.JavascriptAlertsTests.testConfirm" />
+        <item itemvalue="TestNG.JavascriptAlertsTests.testAlert" />
+        <item itemvalue="TestNG.DynamicDataLoadingTests.testDynamicLoading" />
+        <item itemvalue="TestNG.KeyPressTests.testKeyPress" />
+        <item itemvalue="TestNG.UploadFileTests.testUploadFile" />
       </list>
     </recent_temporary>
   </component>
