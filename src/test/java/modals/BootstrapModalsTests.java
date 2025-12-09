@@ -9,6 +9,7 @@ public class BootstrapModalsTests extends BaseTests {
     public void testBootstrapModelPage(){
         var bootstrapPage = homePage.clickBootstrapLink();
         bootstrapPage.triggerModal();
-        bootstrapPage.modal_clickToAccept();
+        bootstrapPage.closeModal();
+//        bootstrapPage.modal_clickToAccept();
     }
 }

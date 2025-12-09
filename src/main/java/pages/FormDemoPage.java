@@ -20,7 +20,6 @@ public class FormDemoPage {
     private By submitButton = By.xpath("//*[@id=\"seleniumform\"]/div[6]/button");
     private By resultMessage = By.xpath("//*[@id=\"__next\"]/div/section[2]/div/div/div/div/p");
 
-
     public FormDemoPage(WebDriver driver){
         this.driver = driver;
     }
