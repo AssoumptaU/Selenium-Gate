@@ -62,7 +62,7 @@
       <recent name="D:\Selenium-Gate" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.BootstrapModalsTests.testBootstrapModelPage">
+  <component name="RunManager" selected="TestNG.JavascriptAlertsTests.testAlert">
     <configuration name="BootstrapModalsTests.testBootstrapModelPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium-Gate" />
       <extension name="coverage">
@@ -155,9 +155,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.JavascriptAlertsTests.testAlert" />
         <item itemvalue="TestNG.BootstrapModalsTests.testBootstrapModelPage" />
         <item itemvalue="TestNG.JavascriptAlertsTests.testConfirm" />
-        <item itemvalue="TestNG.JavascriptAlertsTests.testAlert" />
         <item itemvalue="TestNG.DynamicDataLoadingTests.testDynamicLoading" />
         <item itemvalue="TestNG.KeyPressTests.testKeyPress" />
       </list>

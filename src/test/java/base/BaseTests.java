@@ -15,14 +15,13 @@ public class BaseTests {
 
     @BeforeClass
     public void setUp(){
-        System.setProperty("webdriver.chrome.driver", "D:\\Selenium-Gate\\Resources\\chromedriver.exe");
         driver= new ChromeDriver();
         driver.get("https://www.lambdatest.com/selenium-playground/");
         homePage = new HomePage(driver);
     }
 
-//    @AfterClass
-//    public void tearDown(){
-//        driver.quit();
-//    }
+    @AfterClass
+    public void tearDown(){
+        driver.quit();
+    }
 }
